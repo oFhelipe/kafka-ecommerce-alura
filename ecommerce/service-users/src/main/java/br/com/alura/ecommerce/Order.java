@@ -14,4 +14,12 @@ public class Order {
         this.amount = amount;
         this.email = email;
     }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
